@@ -1,0 +1,72 @@
+# Artifacts and Build Outputs
+artifacts/
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Reports and Logs
+reports/
+logs/
+*.log
+
+# SonarQube
+.sonarqube/
+.sonar/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Node modules (if used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# Git
+.git/
+.gitkeep
+
+# Backups
+*.bak
+backups/
+
+# System files
+.env.local
+.env.*.local
+.kube/config
+kubeconfig
+
+# Temporary files
+.tmp/
+temp/
+tmp/
+
+# Credentials (never commit)
+secrets.txt
+credentials.json
+.aws/credentials
+.kube/
+
+# Environment specific
+.deployment
+.production
+config.local.yaml
+
+# Test coverage
+coverage/
+htmlcov/
+.coverage
